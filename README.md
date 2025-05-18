@@ -21,10 +21,7 @@ This project implements a notification service with a REST API for:
    c:Configure the Database: (in sql)
    Update config.py with your MySQL connection string or set the DATABASE_URI environment variable. Create the MySQL database if it doesn’t exist:
        CREATE DATABASE notification_service_db;
-
-    d:Initialize the Database:(in bash)
-      python init_db.py
-    e:Run the Flask Application:(in bash)
+d:Run the Flask Application:(in bash)
       python app.py
 
   Application will be available at http://localhost:5000.
